@@ -17,7 +17,11 @@ public class Health : MonoBehaviour
 
     void Update()
     {
-        
+        if (currentHealth <= 0) 
+        {
+            Destroy(gameObject);
+            Debug.Log("DEATH");
+        }
     }
 
     void UpdateHealthBar()
