@@ -301,4 +301,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionForce: 1000
   explosionRadius: 10
-  explosionDamage: 10
+  explosionDamage: 50
